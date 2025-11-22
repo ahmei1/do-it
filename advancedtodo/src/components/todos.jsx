@@ -103,13 +103,13 @@ function Todos() {
                         {dark ? (
                             <img
                                 onClick={whitemode}
-                                src="src/tools/contrast_5949098.png"
+                                src="public/tools/contrast_5949098.png"
                                 className="cursor-pointer w-8 h-8 md:w-10 md:h-10"
                             />
                         ) : (
                             <img
                                 onClick={darkmode}
-                                src="src/tools/moon_15014515.png"
+                                src="public/tools/moon_15014515.png"
                                 className="cursor-pointer w-8 h-8 md:w-10 md:h-10"
                             />
                         )}
